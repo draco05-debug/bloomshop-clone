@@ -2,8 +2,6 @@ import { Search, ShoppingCart } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link, useSearchParams } from "react-router";
 import { cartStore } from "../store/cart";
-import signIn from "../pages/signIn";
-import signUp from "../pages/signUp";
 
 const Header = () => {
   const [searchParams, setSearchParams] = useSearchParams();
